@@ -47,13 +47,16 @@
 
 }
 .gpt3__features-container__feature-text{
+
     flex: 2;
     width: 70%;
     /* max-width: 390px; */
-
     display: flex;
+
 }
 
 .gpt3__features-container__feature-text p{
         
+    
+
 }

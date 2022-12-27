@@ -4,7 +4,9 @@ import {Footer,Header,Possibility,Features,Blog,WhatGPT3 } from './containers'
 import {CTA, Brand, Navbar} from './components'
 import './App.css'
 const App = () => {
+
   return (
+    
     <div className='App'>
       {/* header section */}
         <div className='gradient__bg'>
@@ -24,4 +26,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
