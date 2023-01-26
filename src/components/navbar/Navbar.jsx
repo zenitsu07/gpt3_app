@@ -18,7 +18,7 @@ const Menu = () =>(
 
 const Navbar = () => {
 
-  const {toggleMenu,setToggleMenu} = useState(false);
+  const [toggleMenu,setToggleMenu] = useState(false);
   // this is for to toggle views i.e. desktop to mobile
 
   return (

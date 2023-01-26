@@ -113,18 +113,18 @@
 /* tablet */
 @media screen and (max-width: 1050px) {
     
-    .gtp3__navbar-links_container {
+    .gtp3__navbar-links_container,.gpt3__navbar-sign {
         display: none;
     }
     /*!ISSUE fix this navbarmenu not showing on clicking Menu3 button later */
     .gpt3__navbar-menu{
-        background-color: #FF4820;
         display: flex;
     
     }
     .gpt3__navbar-menu_container{
     display: flex;
-    
-    background-color: #FF4820;
+    }
+    .gpt3__navbar-menu_container-links-sign{
+        display: block;
     }
 }
