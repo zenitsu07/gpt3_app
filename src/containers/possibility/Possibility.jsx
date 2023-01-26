@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import possibilityImage from '../../assets/images/possibility.png';
+=======
+import possibilityImage from '../../assets/possibility.png';
+>>>>>>> 8c17c6550fdeec021375b93abb4d13b0648f1ac5
 import './possibility.css';
 
 const Possibility = () => (

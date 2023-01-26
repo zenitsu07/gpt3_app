@@ -4,6 +4,7 @@ import './brand.css';
 
 const Brand = () => (
   <div className="gpt3__brand section__padding">
+<<<<<<< HEAD
      <div>
        <img src={google} alt = 'goggle'/>
      </div>
@@ -22,5 +23,24 @@ const Brand = () => (
 
      </div>
  );
+=======
+    <div>
+      <img src={google} />
+    </div>
+    <div>
+      <img src={slack} />
+    </div>
+    <div>
+      <img src={atlassian} />
+    </div>
+    <div>
+      <img src={dropbox} />
+    </div>
+    <div>
+      <img src={shopify} />
+    </div>
+  </div>
+);
+>>>>>>> 8c17c6550fdeec021375b93abb4d13b0648f1ac5
 
 export default Brand;
